@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import InputField from "./components/InputField.vue";
-import ButtonComponent from "./components/ButtonComponent.vue";
-import AlertDialog from "./components/AlertDialog.vue";
+import InputField from "../components/InputField.vue";
+import ButtonComponent from "../components/ButtonComponent.vue";
+import AlertDialog from "../components/AlertDialog.vue";
 
 export default {
   components: {
