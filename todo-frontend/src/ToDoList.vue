@@ -9,7 +9,9 @@
     <ul>
       <li v-for="(task, index) in tasks" :key="index">
         {{ task }}
-        <Button class="secondary" @click="removeTask(index)">Remove</Button>
+        <ButtonComponent class="secondary" @click="removeTask(index)"
+          >Remove</ButtonComponent
+        >
       </li>
     </ul>
   </div>
